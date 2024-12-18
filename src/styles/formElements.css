@@ -1,0 +1,42 @@
+@tailwind base;
+
+@layer base {
+    .input-field,
+    .select-field {
+        @apply h-8 border border-border-main rounded-xs text-neutral-main placeholder-neutral-light;
+        @apply text-14 placeholder-neutral-subtle cursor-pointer;
+        @apply py-2;
+    }
+
+    /* Hover State */
+    .input-field:hover,
+    .select-field:hover {
+        @apply border border-border-main rounded-xs focus:outline-none focus:border-neutral-main focus:ring-4 focus:ring-border-light;
+    }
+
+    /* Selected State */
+    .select-field:focus,
+    .input-field:focus {
+        @apply border border-border-main rounded-xs focus:outline-none focus:border-brand-main focus:ring-4 focus:ring-brand-subtle;
+    }
+    
+    .input-field:focus {
+        @apply pt-3.5 pb-0.5;
+    }
+
+    .select-field {
+        @apply pt-2.5 pb-1.5;
+    }
+    
+    /* Filled State */
+    .input-field.filled,
+    .select-field.filled {
+        @apply border border-border-main rounded-xs text-neutral-dark placeholder-neutral-light;
+    }
+
+    /* Error State */
+    .input-field.error,
+    .select-field.error {
+        @apply border border-error-main text-error-main rounded-xs placeholder-neutral-light;
+    }
+}

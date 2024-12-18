@@ -1,0 +1,54 @@
+@tailwind base;
+/**
+* Expose the Design System Text styles as fixed classes.
+* Because they are defined as components, you are free to modify them with other utility classes when setting the classNames.
+*/
+@layer base {
+    .style-h1 {
+        @apply font-sans text-26 leading-7.5 font-semibold; /*line-height: 31px*/
+    }
+
+    .style-h2 {
+        @apply font-sans text-24 leading-7 font-semibold;
+    }
+
+    .style-h3 {
+        @apply font-sans text-20 leading-6 font-semibold;
+    }
+
+    .style-h4 {
+        @apply font-sans text-18 leading-5.5 font-semibold; /*line-height: 22px*/
+    }
+
+    .style-h5 {
+        @apply font-sans text-base leading-4.75 font-semibold; /*line-height: 19px*/
+    }
+
+    .style-h6 {
+        @apply font-sans text-14 leading-4.5 font-semibold; /*line-height: 17px*/
+    }
+
+    .body-1 {
+        @apply font-sans text-base font-medium; /*line-height: 140%*/
+    }
+
+    .body-2 {
+        @apply font-sans text-14 font-medium; /*line-height: 140%*/
+    }
+
+    .body-3 {
+        @apply font-sans text-13 font-medium; /*line-height: 140%*/
+    }
+
+    .button-1 {
+        @apply font-sans text-base leading-4 font-bold uppercase align-middle;
+    }
+
+    .button-2 {
+        @apply font-sans text-14 font-bold uppercase align-middle; /*line-height: 14px leading-3.5*/
+    }
+
+    .button-3 {
+        @apply font-sans text-11 font-bold uppercase align-middle; /*line-height: 11px leading-2.5*/
+    }
+}
