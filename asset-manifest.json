@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.754405ef.css",
-    "main.js": "/static/js/main.e0511211.js",
-    "static/media/close.svg": "/static/media/close.22bc28cd026a0f864674e0572a554986.svg",
-    "index.html": "/index.html",
-    "static/media/check.svg": "/static/media/check.ceec63a283224ae94b61e093b243fcfb.svg",
-    "static/media/chevron.svg": "/static/media/chevron.5ab9fe79dae044500b2a3641c0d91a40.svg",
-    "main.754405ef.css.map": "/static/css/main.754405ef.css.map",
-    "main.e0511211.js.map": "/static/js/main.e0511211.js.map"
+    "main.css": "/versions-editor-ui/static/css/main.754405ef.css",
+    "main.js": "/versions-editor-ui/static/js/main.73bd7bfc.js",
+    "static/media/close.svg": "/versions-editor-ui/static/media/close.22bc28cd026a0f864674e0572a554986.svg",
+    "index.html": "/versions-editor-ui/index.html",
+    "static/media/check.svg": "/versions-editor-ui/static/media/check.ceec63a283224ae94b61e093b243fcfb.svg",
+    "static/media/chevron.svg": "/versions-editor-ui/static/media/chevron.5ab9fe79dae044500b2a3641c0d91a40.svg",
+    "main.754405ef.css.map": "/versions-editor-ui/static/css/main.754405ef.css.map",
+    "main.73bd7bfc.js.map": "/versions-editor-ui/static/js/main.73bd7bfc.js.map"
   },
   "entrypoints": [
     "static/css/main.754405ef.css",
-    "static/js/main.e0511211.js"
+    "static/js/main.73bd7bfc.js"
   ]
 }
