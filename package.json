@@ -26,8 +26,9 @@
   },
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d predeploy",
+    "deploy": "gh-pages -d build",
     "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
     "test:coverage": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test --coverage"
   },
